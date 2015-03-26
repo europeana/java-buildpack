@@ -3,7 +3,7 @@ version: 1.7.0_+
 memory_sizes:
 permgen: 256m..
 memory_heuristics:
-heap: 3g
+heap: 2600m
 permgen: 10
 stack: 5
 native: 10
