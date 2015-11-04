@@ -1,3 +1,4 @@
+---
 jre:
   repository_root: ! '{default.repository.root}/openjdk/{platform}/{architecture}'
   version: 1.7.0_+
