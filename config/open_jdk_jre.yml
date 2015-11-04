@@ -4,6 +4,6 @@ memory_sizes:
 permgen: 512m..
 memory_heuristics:
 heap: 2200m
-permgen: 15 
+permgen: 35 
 stack: 5
 native: 10
