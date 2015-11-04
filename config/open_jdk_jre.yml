@@ -1,5 +1,5 @@
 jre:
-  repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
+  repository_root: ! '{default.repository.root}/openjdk/{platform}/{architecture}'
   version: 1.7.0_+
 memory_calculator:
   version: 2.+
