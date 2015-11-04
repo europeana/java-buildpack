@@ -1,17 +1,11 @@
 ---
-jre:
-  repository_root: ! '{default.repository.root}/openjdk/{platform}/{architecture}'
-  version: 1.7.0_+
-memory_calculator:
-  version: 2.+
-  repository_root: ! '{default.repository.root}/memory-calculator/{platform}/{architecture}'
-  stack_threads: 
-  memory_heuristics:
-    heap: 55
-    permgen: 30 
-    stack: 5
-    native: 10
-  memory_initials:
-    heap: 100%
-    metaspace: 100%
-    permgen: 100%
+repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
+version: 1.7.0_+
+memory_heuristics:
+  heap: 55
+  permgen: 30 
+  stack: 5
+  native: 10
+memory_initials:
+  heap: 100%
+  permgen: 100%
