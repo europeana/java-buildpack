@@ -32,7 +32,7 @@ Free Disk Space (Before)
 ========================
 $(df -h)
 "
-$JAVA_HOME/bin/jmap -heap $(<~/../run.pid)
+$JAVA_HOME/bin/jmap -histo $(<~/../run.pid)
 pkill -9 -f .*-XX:OnOutOfMemoryError=.*killjava.*
 
 echo "
