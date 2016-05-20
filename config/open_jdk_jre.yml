@@ -25,14 +25,14 @@ memory_calculator:
   stack_threads:
   memory_sizes:
     heap:
-    metaspace: 64m..
+    metaspace: 256m..
     native:
     permgen: 64m..
     stack:
   memory_heuristics:
-    heap: 65
-    metaspace: 20
-    native: 10
+    heap: 55
+    metaspace: 25
+    native: 15
     permgen: 20
     stack: 5
   memory_initials:
