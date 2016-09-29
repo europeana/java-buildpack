@@ -39,5 +39,3 @@ memory_calculator:
     heap: 100%
     metaspace: 100%
     permgen: 100%
-  proxy_config:
-    http_proxy: socks5://statica3435:7275336523866a3b@us-east-1-static-hopper.statica.io:1080
