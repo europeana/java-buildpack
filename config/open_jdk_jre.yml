@@ -39,6 +39,7 @@ memory_calculator:
     heap: 100%
     metaspace: 100%
     permgen: 100%
+  proxy_env:  
   socksProxyHost: us-east-1-static-hopper.statica.io
   socksProxyPort: 1080
   java.net.socks.username: statica3435
