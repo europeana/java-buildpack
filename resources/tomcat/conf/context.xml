@@ -15,5 +15,5 @@
   ~ limitations under the License.
   -->
 
-<Context>
+<Context unloadDelay="1000">
 </Context>
